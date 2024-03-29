@@ -1,0 +1,111 @@
+/* Section.js */
+section {
+}
+.card {
+  border: 1px solid skyblue;
+}
+.card-body {
+  text-align: center;
+}
+.h3 {
+  color: orangered;
+  font-weight: 700;
+}
+.container {
+  text-align: center;
+}
+.d-block {
+  width: 100%;
+  height: 89vh;
+}
+.card-title {
+  text-decoration: none;
+}
+.card-text {
+  color: red;
+  font-weight: 600;
+}
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #b1dae7;
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+
+.cta span {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #234567;
+}
+
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #234567;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+  width: 100%;
+  background: #b1dae7;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active {
+  transform: scale(0.95);
+}
+footer {
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
+footer .btn {
+  margin-top: 10px;
+}
+footer .email {
+  text-align: left;
+}
+footer .email input{
+  border: 1px solid rgb(109, 196, 230);
+  height: 35px;
+  padding: 3px;
+}
+footer ul li {
+  list-style-type: none;
+  text-align: left;
+}
+footer .h5 {
+  font-weight: bold;
+}
+@media (max-width:760px) {
+  footer .email{
+    margin: 10px 30px;
+  }
+}

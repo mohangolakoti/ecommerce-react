@@ -1,0 +1,32 @@
+#items .carousel-item img{
+  height: 65vh;
+}
+h2{
+  font-weight: bold;
+}
+.cartBtn {
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 2px;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  color: black;  
+  background-color: rgb(151, 212, 236);
+  box-shadow: 0 20px 30px -7px rgba(27, 27, 27, 0.219);
+}
+.cartBtn:hover{
+  opacity: 0.8;
+}
+.product {
+  position: absolute;
+  width: 12px;
+  border-radius: 3px;
+  content: "";
+  left: 23px;
+  bottom: 23px;
+  opacity: 0;
+  z-index: 1;
+  fill: rgb(84, 192, 219);
+}

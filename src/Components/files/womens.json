@@ -1,0 +1,238 @@
+[
+    {
+        "id": 1,
+        "image": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/300963706AQUA_1.jpg?v=1707999486",
+        "title": "West Side",
+        "price": 434
+    },
+    {
+        "id": 2,
+        "image": "https://static3.azafashions.com/tr:w-317/uploads/product_gallery/1699087331908_1.jpg?noopt=true",
+        "title": "LIBAS",
+        "price": 669
+    },
+    {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1566206091558-7f218b696731?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN0eWxlfGVufDB8fDB8fHww",
+        "title": "West Side",
+        "price": 721
+    },
+    {
+        "id": 4,
+        "image": "https://www.lakshita.com/cdn/shop/products/23SLK02986-S-2C_1.jpg?v=1686742648&width=1026",
+        "title": "LIBAS",
+        "price": 559
+    },
+    {
+        "id": 5,
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/kurta/2/y/0/s-ku767grn-mokshi-original-imagk5myfhduxgfq.jpeg?q=70",
+        "title": "Mokshi",
+        "price": 413
+    },
+    {
+        "id": 6,
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/kurta/n/u/c/xxl-belt-kurti-pmd-fashion-original-imagxfhtghbnz4mm.jpeg?q=70",
+        "title": "PMD Fashion",
+        "price": 492
+    },
+    {
+        "id": 7,
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/kurta/9/z/p/m-ku767red-mokshi-original-imagk5m3kmcdnpgq.jpeg?q=70",
+        "title": "Mokshi",
+        "price": 447
+    },
+    {
+        "id": 8,
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/kurta/m/a/b/xl-kurta-flared-u-neck-013-dhakre-fashion-original-imagsn2pbdy8apay.jpeg?q=70",
+        "title": "Dhakre fashion",
+        "price": 520
+    },
+    {
+        "id": 9,
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/kurta/h/6/v/xl-sa19kr328w-surhi-original-imafpf3cqbzkxuhz-bb.jpeg?q=70",
+        "title": "Surhi",
+        "price": 394
+    },
+    {
+        "id": 10,
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/kurta/d/p/k/5xl-437-sanwariya-creation-original-imaggp92gyq2v6fp.jpeg?q=70",
+        "title": "SHRI RADHARANI",
+        "price": 438
+    },
+    {
+        "id": 11,
+        "image": "https://stylum.in/cdn/shop/files/KPDGREENDANGAL_7.jpg?v=1694774003&width=533",
+        "title": "DSK STUDIO",
+        "price": 367
+    },
+    {
+        "id": 12,
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/kurta/n/6/j/l-cc312piyaajigown-charvi-creation-original-imagu8sfnqg9fygk.jpeg?q=70",
+        "title": "CHARVI CREATION",
+        "price": 446
+    },
+    {
+        "id": 13,
+        "image": "https://rukminim2.flixcart.com/image/612/612/kqpj4i80/kurta/j/h/8/xl-ku632lgn-mokshi-original-imag4nmvvfny6vyf.jpeg?q=70",
+        "title": "Mokshi",
+        "price": 378
+    },
+    {
+        "id": 14,
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/kurta/w/1/w/xxl-kurta-013-dhakre-fashion-original-imagsuqgnzefhed8.jpeg?q=70",
+        "title": "Dhakre fashion",
+        "price": 354
+    },
+    {
+        "id": 15,
+        "image": "https://rukminim2.flixcart.com/image/612/612/keq058w0-0/kurta/l/k/q/s-gbk1208-god-bless-original-imafvccftnhd6hdz.jpeg?q=70",
+        "title": "God Bless",
+        "price": 401
+    },
+    {
+        "id": 16,
+        "image": "https://rukminim2.flixcart.com/image/612/612/kr9jafk0/kurta/p/s/a/3xl-kr497a-metro-fashion-original-imag537euzeewfnx.jpeg?q=70",
+        "title": "METRO-FASHION",
+        "price": 429
+    },
+    {
+        "id": 17,
+        "image": "https://rukminim2.flixcart.com/image/612/612/kqpj4i80/kurta/d/b/a/xl-ku632grn-mokshi-original-imag4nmvm4bsdhzh.jpeg?q=70",
+        "title": "Mokshi",
+        "price": 391
+    },
+    {
+        "id": 18,
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/kurta/9/t/c/m-ku779grn-mokshi-original-imagm5wzqgthgaw8.jpeg?q=70",
+        "title": "Mokshi",
+        "price": 498
+    },
+    
+    {
+        "id": 19,
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/kurta/0/q/f/l-ku778blu-mokshi-original-imagm5wrgp4pyfgc.jpeg?q=70",
+        "title": "Mokshi",
+        "price": 413
+    },
+    {
+        "id": 20,
+        "image": "https://rukminim2.flixcart.com/image/612/612/kmxsakw0/kurta/c/l/l/s-aj-517-aj-art-original-imagfqhc5bznnjhf.jpeg?q=70",
+        "title": "Aj Art",
+        "price": 342
+    },
+    {
+        "id": 21,
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/ethnic-set/7/q/d/xxl-jef-rbd-814-jaffry-embroidery-original-imagf5a5hgqzzfzw-bb.jpeg?q=70",
+        "title": "JAFFRY TEXTILES",
+        "price": 504
+    },
+    {
+        "id": 22,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbimuoPKW7--Ga17zBGjT9sp0wixNJriUJ9jGX7DMJVWxI3Y3TW_j56oY-XwcWo_HHAvk&usqp=CAU",
+        "title": "Biba",
+        "price": 429
+    },
+    {
+        "id": 23,
+        "image": "https://rukminim2.flixcart.com/image/612/612/l1zc6fk0/kurta/4/4/a/xs-23491o-libas-original-imagdfettbekfyf3.jpeg?q=70",
+        "title": "LIBAS",
+        "price": 494
+    },
+    {
+        "id": 24,
+        "image": "data:image/jpeg;base64,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",
+        "title": "Forever New",
+        "price": 324
+    },
+    {
+        "id": 25,
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-kurta/4/6/s/xxl-sf-1039-mf-hayat-original-imagntuyhhghcx5q.jpeg?q=70",
+        "title": "MF HAYAT",
+        "price": 462
+    },
+    {
+        "id": 26,
+        "image": "https://rukminim2.flixcart.com/image/612/612/kmccosw0/kurta/a/u/v/s-13498312-here-now-original-imagf9f2chgsnbfh.jpeg?q=70",
+        "title": "HERE&NOW",
+        "price": 510
+    },
+    {
+        "id": 27,
+        "image": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNsb3RoaW5nfGVufDB8fDB8fHww",
+        "title": "West Side",
+        "price": 346
+    },
+    {
+        "id": 28,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZMIpiCICuSGdMFq476LuI3ijd0w94mnwd5Q&usqp=CAU",
+        "title": "Berry lush",
+        "price": 614
+    },
+    {
+        "id": 29,
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/kurta/y/o/g/xl-4colour-flower-kurti-anushansa-original-imagc94fymgd9uf7-bb.jpeg?q=70",
+        "title": "Anushansa",
+        "price": 409
+    },
+    {
+        "id": 30,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWLJPPiC9d448I00jXtQnH0HVuLBWGC6oGxg&usqp=CAU",
+        "title": "Berry lush",
+        "price": 646
+    },
+    {
+        "id": 31,
+        "image": "https://5.imimg.com/data5/SELLER/Default/2023/6/315297186/JD/AS/VG/4537765/ladies-a-line-silk-blend-printed-kurta-set.jpg",
+        "title": "HERE&NOW",
+        "price": 575
+    },
+    {
+        "id": 32,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1IrYGcxiWWgREHiD_QKSRhcZI0OphqTEf4iDqinIfexaHK-X_xcBMvzZqu05XXyUdwY0&usqp=CAU",
+        "title": "SHRI RADHARANI",
+        "price": 541
+    },
+    {
+        "id": 33,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0BZWSZfqIN0Nf4E-8qy0JdPnCng_b8jRHdQ&usqp=CAU",
+        "title": "Vogue India",
+        "price": 697
+    },
+    {
+        "id": 34,
+        "image": "https://cdn.shopify.com/s/files/1/1746/5485/products/5451635072317_8_017fb3c0-851f-439b-88cb-e50aec9fe515_540x.jpg?v=1597401004",
+        "title": "METRO-FASHION",
+        "price": 567
+    },
+    {
+        "id": 35,
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/kurta/p/4/m/m-chikanakri-shree-ramkrishna-fab-original-imagpuf2kmyqxfzy.jpeg?q=70",
+        "title": "Shree Ramkrishna",
+        "price": 512
+    },
+    {
+        "id": 36,
+        "image": " https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/d/tr:w-270,/3dbd728IF1004_1.jpg?rnd=20200526195200",
+        "title": "PMD Fashion",
+        "price": 579
+    },
+    {
+        "id": 37,
+        "image": "https://img.tatacliq.com/images/i11/437Wx649H/MP000000017743952_437Wx649H_202305290230591.jpeg",
+        "title": "HERE&NOW",
+        "price": 759
+    },
+    {
+        "id": 38,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMQuZWZAqZ7C9C3C2LVkMtxfxbEbRNxye2PA&usqp=CAU",
+        "title": "Levis",
+        "price": 950
+    },
+    {
+        "id": 39,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR96xsZQWhS6d4dRrymbngNaqnNbI3DcyZWgw&usqp=CAU",
+        "title": "Levis",
+        "price": 750
+    }
+
+]
