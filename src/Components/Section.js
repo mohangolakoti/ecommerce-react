@@ -309,6 +309,7 @@ const Section = () => {
                 <li>Book a reservation</li>
               </ul>
             </div>
+            <p>&copy; MohanGolakoti 2024.All rights reserved.</p>
           </div>
         </div>
       </footer>

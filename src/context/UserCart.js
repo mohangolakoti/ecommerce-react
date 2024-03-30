@@ -95,7 +95,6 @@ const UserCart = () => {
       </section>:
       ""
 }
-
     </div>
   );
 };
