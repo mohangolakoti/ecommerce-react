@@ -6,11 +6,13 @@ import { Link } from "react-router-dom";
 
 const UserCart = () => {
   const { cartItems, removeFromCart } = useCart();
+  var totalCost=0;
   return (
     <div id="cart">
       <Navbar />
       {cartItems != 0 ? (
         cartItems.map((item) => {
+          totalCost+=item.price;
           return (
             <div>
               <section className="cart">
@@ -60,7 +62,7 @@ const UserCart = () => {
                   </div>
                 </div>
               </section>
-            </div>
+          </div>
           );
         })
       ) : (
@@ -71,6 +73,29 @@ const UserCart = () => {
           </Link>
         </div>
       )}
+<hr />
+{cartItems!=0?
+      <section className="total m-4">
+        <div className="container">
+          <div className="row">
+            <div className="align col-md-6">
+              <input type="text" placeholder="Enter promo code.."/><br />
+              <button className="btn btn-success">Apply Coupon</button>
+            </div>
+            <div className="align col-md-6">
+              <p className="h3">Total Cost:</p>
+              <p>Items Price:  Rs.{totalCost}</p>
+              <p>Delivery Charges:  Rs.0</p>
+              <p>Discount:  Rs.0</p>
+              <p className="h4">Total: Rs.{totalCost}</p>
+              <button className="btn order">Place Order</button>
+            </div>
+          </div>
+        </div>
+      </section>:
+      ""
+}
+
     </div>
   );
 };

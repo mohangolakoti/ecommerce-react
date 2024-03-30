@@ -1,3 +1,7 @@
+:root{
+  --font-color1: #f53844;
+  --font-color2: blue
+}
 .cart {
   z-index: 2;
   margin: 100px;
@@ -18,7 +22,7 @@
   margin-top: 50px;
 }
 #cart .button{
-  background-color: rgb(250, 90, 31);
+  background-color: var(--font-color1);
   color: white;
   padding: 7px 10px;
   border-radius: 5px;
@@ -60,14 +64,14 @@
   width: 100%;
   height: 100%;
   translate: 0 105%;
-  background-color: #f53844;
+  background-color: var(--font-color1);
   transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .button1 svg {
   width: 32px;
   height: 32px;
-  fill: #f53844;
+  fill: var(--font-color1);
   transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
@@ -101,5 +105,28 @@
   }
 }
 .total{
-  margin: 100px;
+  font-weight: 550;
+  text-align: left;
+}
+.total .align{
+  text-align: left;
+}
+.total .h3{
+  font-weight: 700;
+}
+.total .h4{
+  font-weight: 600;
+}
+.total .btn{
+  margin: 10px 0;
+}
+.total .order{
+  background-color: rgb(10, 31, 69);
+  color: white;
+  border-radius: 10px;
+}
+.total input{
+  width: 300px;
+  height: 45px;
+  padding: 5px;
 }
