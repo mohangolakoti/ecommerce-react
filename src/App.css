@@ -5,11 +5,10 @@
 }
 .App{
   background-color: whitesmoke;
-  margin-bottom: -100px;
+  overflow-x: hidden;
 }
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 div{
   font-family: 'Courier New', Courier, monospace, sans-serif;

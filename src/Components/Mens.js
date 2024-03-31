@@ -71,7 +71,7 @@ const Mens = () => {
         </div>
       </section>
 
-      <section className="mens mx-auto my-5 d-xxl py-1">
+      <section className="mt-4 mx-auto my-5 py-1">
         <div className="d-flex">
           <div className="p-2 m-2">
             <h2 className="m-2">Filter</h2>
@@ -97,7 +97,7 @@ const Mens = () => {
             )}
           </div>
 
-          <div className="container mt-4 mens mx-auto my-5 d-xxl py-1">
+          <div className="container mt-4 mx-auto my-5 py-1">
             <div className="row">
               {filterprod.map((item) => (
                 <div className="col-md-4">

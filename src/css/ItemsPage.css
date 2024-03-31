@@ -30,3 +30,10 @@ h2{
   z-index: 1;
   fill: rgb(84, 192, 219);
 }
+
+@media (max-width:450px) {
+  #items .d-flex{
+    display: flex;
+    flex-direction: column;
+  }
+}

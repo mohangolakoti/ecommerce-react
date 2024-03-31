@@ -85,12 +85,16 @@ section {
 footer {
   background-color: rgb(37, 37, 37);
   color: white;
+  margin-top: 100px;
 }
 footer .btn {
   margin-top: 10px;
 }
 footer .email {
   text-align: left;
+}
+footer .row{
+  margin-top: 50px;
 }
 footer .email input{
   border: 1px solid rgb(109, 196, 230);
@@ -103,6 +107,15 @@ footer ul li {
 }
 footer .h5 {
   font-weight: bold;
+}
+.copy{
+  text-align: center;
+  font-weight: bold;
+  margin-top: -50px;
+  margin-bottom: 0;
+  background-color: rgb(37, 37, 37);
+  color: white;
+  padding: 10px;
 }
 @media (max-width:760px) {
   footer .email{

@@ -3,19 +3,22 @@ import { useCart } from "./CartContext";
 import Navbar from "../Components/Navbar";
 import "../css/Cart.css";
 import { Link } from "react-router-dom";
+import Headroom from "react-headroom";
 
 const UserCart = () => {
   const { cartItems, removeFromCart } = useCart();
   var totalCost=0;
   return (
     <div id="cart">
-      <Navbar />
+      <Headroom style={{position:'absolute'}}>
+      <Navbar/>
+      </Headroom>
       {cartItems != 0 ? (
         cartItems.map((item) => {
           totalCost+=item.price;
           return (
             <div>
-              <section className="cart">
+              <section className="cart m-4">
                 <div className="eachImage">
                   <div className="row">
                     <div className="col-md-4">
@@ -67,13 +70,12 @@ const UserCart = () => {
         })
       ) : (
         <div className="cart-empty">
-          <h4>Cart is empty!</h4>
+          <h4 className="h4">Cart is empty!</h4>
           <Link to="/">
             <button className="button">Shop Now</button>
           </Link>
         </div>
       )}
-<hr />
 {cartItems!=0?
       <section className="total m-4">
         <div className="container">
@@ -93,7 +95,7 @@ const UserCart = () => {
           </div>
         </div>
       </section>:
-      ""
+     ""
 }
     </div>
   );

@@ -3,8 +3,6 @@
   --font-color2: blue
 }
 .cart {
-  z-index: 2;
-  margin: 100px;
   border: 1px solid skyblue;
 }
 #cart{
@@ -19,7 +17,7 @@
 }
 #cart .cart-empty{
   text-align: center;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 #cart .button{
   background-color: var(--font-color1);
@@ -107,6 +105,8 @@
 .total{
   font-weight: 550;
   text-align: left;
+  padding: 10px;
+  position: relative;
 }
 .total .align{
   text-align: left;
@@ -129,4 +129,10 @@
   width: 300px;
   height: 45px;
   padding: 5px;
+  border: 1px solid;
+}
+@media (max-width:340px) {
+  .total input{
+    width: 240px;
+  }
 }

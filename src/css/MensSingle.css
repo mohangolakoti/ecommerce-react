@@ -1,12 +1,12 @@
 #menSingle .row{
-    margin: 40px 80px;
     border: 1px solid skyblue;
     display: flex;
     flex-direction: row;
+    padding: 5px;
+    margin: 2px;
 }
 
 /* image */
-
 #menSingle .img-card{
     display: flex;
     flex-direction: row;
@@ -27,15 +27,14 @@
     border: 3px solid skyblue;
 }
 #menSingle .card-img-top{
+    margin: 10px 5px 0 0;
     height: 350px;
-    width: 300px;
-    margin: 10px;
 }
 
 /* text col */
-
-#menSingle .col{
-    margin:15px 0px 0px 90px;
+#menSingle .description{
+    text-align: left;
+    padding: 20px;
 }
 #menSingle .title{
     font-weight: bold;
@@ -47,11 +46,12 @@
     border: 1px solid skyblue;
     padding: 3px 8px;
     cursor: pointer;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 #menSingle .size{
     display: flex;
     padding: 30px 0px;
+    margin-left: -20px;
 }
 #menSingle .ratings{
     width: 100px;
@@ -64,4 +64,31 @@
 }
 #menSingle .active{
     background-color: skyblue;
+}
+
+@media (max-width:500px) {
+    #menSingle .img-card{
+        display: flex;
+        flex-direction: column;
+    }
+    #menSingle .pose-main{
+        display: flex;
+        flex-direction: row;
+        margin: 8px;
+    }
+    #menSingle .pose{
+        height: 70px;
+        width: 70px;
+        margin: 10px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+}
+@media (max-width:325px) {
+    #menSingle .pose1{
+        display: none;
+    }
+    #menSingle .pose{
+        margin: 15px;
+    }
 }

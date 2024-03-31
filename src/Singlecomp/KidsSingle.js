@@ -18,15 +18,16 @@ const KidsSingle = () => {
     return (
       <div id="menSingle">
       <Navbar />
-      <div className=" mx-auto my-5 d-xxl-none py-1">
+      <div className=" mx-auto my-5 py-1">
+        <div className="container">
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-6">
               <div className="img-card">
                 <div className="pose-main">
                   <img src={product.image} className="pose" />
                   <img src={product.image} className="pose" />
                   <img src={product.image} className="pose" />
-                  <img src={product.image} className="pose" />
+                  <img src={product.image} className="pose1 pose" />
                 </div>
                 <div className="card-body">
                   <img src={product.image} className="card-img-top rounded" />
@@ -34,14 +35,14 @@ const KidsSingle = () => {
               </div>
             </div>
 
-            <div className="col">
+            <div className="description col-md-6 container-md">
                   <h5 className="title">{product.title}</h5>
                   <div className="s-p">special offer</div>
                   <div className="text">Rs.{product.price}</div>
                   <img src={rating} alt="ratings" className="ratings"/>
                   <div className="rating-text">459 ratings & reviews</div>
                   <div className="size">
-                    <div className="nums">S</div>
+                    <div className="nums active">S</div>
                     <div className="nums">M</div>
                     <div className="nums">L</div>
                     <div className="nums">XL</div>
@@ -53,6 +54,7 @@ const KidsSingle = () => {
                     <span>ADD TO CART</span>
                   </button>
                 </div>
+              </div>
               </div>
             </div>
           </div>
