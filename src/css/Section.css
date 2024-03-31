@@ -122,3 +122,25 @@ footer .h5 {
     margin: 10px 30px;
   }
 }
+@media (max-width:450px) {
+  .d-block {
+    width: 100%;
+    height: 50vh;
+  }
+  .h3 {
+    color: orangered;
+    font-weight: 700;
+    font-size: medium;
+  }
+}
+@media (max-width:320px) {
+  .d-block {
+    width: 100%;
+    height: 40vh;
+  }
+  .h3 {
+    color: orangered;
+    font-weight: 700;
+    font-size:small;
+  }
+}
